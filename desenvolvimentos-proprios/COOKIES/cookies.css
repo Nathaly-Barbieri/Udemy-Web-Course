@@ -1,0 +1,21 @@
+.box-cookies
+{
+    width: 400px;
+    display: block;
+    align-items: center;
+
+    border: black 1px solid;
+}
+
+#accept-cookies{
+    
+   
+   
+    border: rgb(78, 2, 255) 1px solid;
+}
+
+#refuse-cookies{
+  
+    
+    border: rgb(234, 0, 255) 1px solid;
+}
