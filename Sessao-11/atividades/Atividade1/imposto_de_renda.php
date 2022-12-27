@@ -1,10 +1,6 @@
 <?php
 
-    $renda = $_POST['rendendimentos_valor'];
-
-    echo 'renda';
-
-    $valor = 7282.00;
+    $valor = $_POST['rendendimentos_valor'];
  
  function Calcula_Imposto_De_Renda($renda)
  {
@@ -50,11 +46,11 @@
     </head>
     <body>
 
-    <h1>Essa página informa qual é o valor que será pago no seu imposto de renda atráves de um valor já estabelecido.</h1>
-
     <h2>Você informou a renda R$ <?php echo $valor;?>!</h2>
 
     <h3> <?php Calcula_Imposto_De_Renda($valor); ?> </h3>
+
+    <a href="apresentacao.html">Voltar</a>
 
     </body>
 </html>
