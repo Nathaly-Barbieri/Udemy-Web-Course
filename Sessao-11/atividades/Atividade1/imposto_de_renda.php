@@ -1,5 +1,9 @@
 <?php
 
+    $renda = $_POST['rendendimentos_valor'];
+
+    echo 'renda';
+
     $valor = 7282.00;
  
  function Calcula_Imposto_De_Renda($renda)
