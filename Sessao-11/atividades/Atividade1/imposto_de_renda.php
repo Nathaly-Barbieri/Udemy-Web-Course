@@ -13,27 +13,26 @@
     if($renda > 1903.98 && $renda <= 2826.65)
     {
         $porcentagem = ($renda *  7.5) / 100;
-        echo 'Você têm que pagar: R$ ' . $porcentagem;
+        echo 'Você têm que pagar: R$ ' . str_replace('.', ',', $porcentagem);
     }
 
     if($renda > 2826.65 && $renda <= 3751.05)
     {
         $porcentagem = ($renda *  15) / 100;
-        echo 'Você têm que pagar: R$ ' . $porcentagem;
+        echo 'Você têm que pagar: R$ ' . str_replace('.', ',', $porcentagem);
     }
 
     if($renda > 3751.06 && $renda <= 4664.68)
     {
         $porcentagem = ($renda *  22.5) / 100;
-        echo 'Você têm que pagar: R$ ' . $porcentagem;
+        echo 'Você têm que pagar: R$ ' . str_replace('.', ',', $porcentagem);
     }
 
     if($renda > 4664.68)
     {
         $porcentagem = ($renda *  27.5) / 100;
-        echo 'Você têm que pagar: R$ ' . $porcentagem;
+        echo 'Você têm que pagar: R$ ' . str_replace('.', ',', $porcentagem);
     }
-  
 
  }
 
